@@ -19,11 +19,6 @@
            remote="Naruto-242"
            revision="pe-13" />
 
-<project path="vendor/xiaomi/beryllium"
-           name="temp_vendor_xiaomi_beryllium"
-           remote="Naruto-242"
-           revision="pe-13" />  
-
   <project path="vendor/xiaomi/sdm845-common"
            name="vendor_xiaomi_sdm845-common"
            remote="Naruto-242"
