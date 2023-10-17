@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remove-project name="hardware/qcom-caf/sdm845" />
   <remote name="devilprobir" fetch="https://github.com/devilprobir"/>
   <remote name="improbir" fetch="https://github.com/improbir"/>
   <remote name="ArrowOS-Devices" fetch="https://github.com/ArrowOS-Devices"/>
@@ -18,20 +17,6 @@
            name="vendor_realme_RMX1921"
            remote="devilprobir"
            revision="13" />
-
-  <!--Hals-->
-    <project path="hardware/qcom-caf/sdm845/audio"
-           name="android_hardware_qcom_audio"
-           remote="devilprobir"
-           revision="lineage-20.0-caf-sdm845" />
-    <project path="hardware/qcom-caf/sdm845/display"
-           name="android_hardware_qcom_display"
-           remote="devilprobir"
-           revision="lineage-20.0-caf-sdm845" />
-    <project path="hardware/qcom-caf/sdm845/media"
-           name="hardware_qcom-caf_sdm845_media"
-           remote="improbir"
-           revision="lineage-20.0-caf-sdm845" />
 
   <!--Toolchain-->
     <project path="prebuilts/clang/host/linux-x86/clang-r416183b1"
