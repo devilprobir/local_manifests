@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remove-project name="frameworks/base" />
   <remote name="devilprobir" fetch="https://github.com/devilprobir"/>
   <remote name="improbir" fetch="https://github.com/improbir"/>
   <remote name="ArrowOS-Devices" fetch="https://github.com/ArrowOS-Devices"/>
