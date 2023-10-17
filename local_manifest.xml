@@ -3,7 +3,6 @@
   <remove-project name="hardware/qcom-caf/sdm845" />
   <remote name="devilprobir" fetch="https://github.com/devilprobir"/>
   <remote name="improbir" fetch="https://github.com/improbir"/>
-  <remote name="LineageOS" fetch="https://github.com/LineageOS"/>
   <remote name="ArrowOS-Devices" fetch="https://github.com/ArrowOS-Devices"/>
 
 <!--Trees-->
@@ -23,11 +22,11 @@
   <!--Hals-->
     <project path="hardware/qcom-caf/sdm845/audio"
            name="android_hardware_qcom_audio"
-           remote="LineageOS"
+           remote="devilprobir"
            revision="lineage-20.0-caf-sdm845" />
     <project path="hardware/qcom-caf/sdm845/display"
            name="android_hardware_qcom_display"
-           remote="LineageOS"
+           remote="devilprobir"
            revision="lineage-20.0-caf-sdm845" />
     <project path="hardware/qcom-caf/sdm845/media"
            name="hardware_qcom-caf_sdm845_media"
