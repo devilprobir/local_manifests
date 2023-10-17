@@ -18,6 +18,11 @@
            remote="devilprobir"
            revision="13" />
 
+ <project path="frameworks/base"
+           name="android_frameworks_base"
+           remote="improbir"
+           revision="thirteen" />
+
   <!--Toolchain-->
     <project path="prebuilts/clang/host/linux-x86/clang-r416183b1"
            name="android_prebuilts_clang_host_linux-x86_clang-r416183b1"
