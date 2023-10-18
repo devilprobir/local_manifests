@@ -19,7 +19,7 @@
            revision="13" />
 
   <!--Patch-->
- <remove-project name="platform/frameworks/base" />
+ <remove-project name="frameworks_base" />
  <project path="frameworks/base"
            name="android_frameworks_base"
            remote="improbir"
