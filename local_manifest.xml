@@ -25,6 +25,26 @@
            remote="devilprobir"
            revision="thirteen-plus" />
 
+  <!--Hals-->
+  <remove-project name="hardware_qcom-caf_sdm845_audio" />
+  <remove-project name="hardware_qcom-caf_sdm845_media" />
+  <remove-project name="hardware_qcom-caf_sdm845_display" />
+
+   <project path="hardware/qcom-caf/sdm845/audio"
+           name="hardware_qcom-caf_sdm845_audio"
+           remote="devilprobir"
+           revision="lineage-20.0-caf-sdm845" />
+
+  <project path="hardware/qcom-caf/sdm845/display"
+           name="hardware_qcom-caf_sdm845_display"
+           remote="devilprobir"
+           revision="lineage-20.0-caf-sdm845" />
+
+  <project path="hardware/qcom-caf/sdm845/media"
+           name="hardware_qcom-caf_sdm845_media"
+           remote="devilprobir"
+           revision="lineage-20.0-caf-sdm845" />
+  
   <!--Toolchain-->
     <project path="prebuilts/clang/host/linux-x86/clang-r416183b1"
            name="android_prebuilts_clang_host_linux-x86_clang-r416183b1"
