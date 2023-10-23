@@ -21,9 +21,9 @@
   <!--Patch-->
  <remove-project name="frameworks_base" />
  <project path="frameworks/base"
-           name="android_frameworks_base"
-           remote="improbir"
-           revision="thirteen" />
+           name="frameworks_base"
+           remote="devilprobir"
+           revision="thirteen-plus" />
 
   <!--Toolchain-->
     <project path="prebuilts/clang/host/linux-x86/clang-r416183b1"
