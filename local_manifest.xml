@@ -25,6 +25,12 @@
            remote="devilprobir"
            revision="thirteen-plus" />
 
+  <remove-project name="frameworks_av" />
+ <project path="frameworks/av"
+           name="frameworks_av"
+           remote="devilprobir"
+           revision="thirteen" />
+
   <!--Hals-->
   <remove-project name="hardware_qcom-caf_sdm845_audio" />
   <remove-project name="hardware_qcom-caf_sdm845_media" />
